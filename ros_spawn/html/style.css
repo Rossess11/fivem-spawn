@@ -1,0 +1,85 @@
+@font-face {
+    font-family: rosUpp;
+    src: url("log.ttf");
+}
+
+@font-face {
+    font-family: ros;
+    src: url("ros.ttf");
+}
+
+#chat-container {
+    position: absolute;
+    left: 20%;
+    bottom: 8%;
+    width: 600px;
+    height: 60px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    box-shadow: 0 0 10px 0 white;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: ros;
+    font-size: 14px;
+    display: none;
+    opacity: 0;
+    transition: all 2s;
+}
+
+#chat-container-title{
+    position: absolute;
+    padding: 10px;
+    left: 22%;
+    bottom: 18%;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px 0 white;
+    border-radius: 10px;
+    font-family: rosUpp;
+    display: none;
+    opacity: 0;
+    transition: all 2s;
+}
+
+#afirmativo {
+    text-align: center;
+    width: 30px;
+    display: none;
+    position: absolute;
+    left: 48%;
+    bottom: 18%;
+    color: black;
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: rosUpp;
+    box-shadow: 0 0 10px 0 white;
+    transition: all 1s;
+    border: none;
+}
+
+#afirmativo:hover{
+    bottom: 19%;
+}
+
+#negativo {
+    text-align: center;
+    width: 30px;
+    display: none;
+    border: none;
+    position: absolute;
+    left: 50%;
+    color: black;
+    bottom: 18%;
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: rosUpp;
+    box-shadow: 0 0 10px 0 white;
+    transition: all 1s;
+}
+
+#negativo:hover {
+    bottom: 19%;
+}
